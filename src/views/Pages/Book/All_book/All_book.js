@@ -25,7 +25,7 @@ const All_book = () => {
 
   useEffect(() => {
     Axios({
-      url: `/crm/book?title=${search}&author=${search}`,
+      url: `/crm/book?search=${search}`,
       method: 'get',
       headers: {
         Authorization: `Bearer ${user?.loginfo?.data?.token}`,

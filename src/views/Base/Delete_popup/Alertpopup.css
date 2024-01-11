@@ -1,0 +1,38 @@
+.delete_popup .modal-header {
+  background-color: #ff535370;
+  border-bottom: none !important;
+}
+
+.delete_popup .modal-header .modal-title {
+  font-size: 20px;
+}
+
+.delete_popup .modal-body {
+  font-size: 18px;
+}
+
+.delete_popup .modal-footer {
+  border-top: none !important;
+}
+
+.delete_popup .modal-footer .btn-danger {
+  background-color: #fff;
+  border: 1px solid #ff7a53;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 11px 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #ff7a53;
+}
+
+.delete_popup .modal-footer .btn-secondary {
+  background-color: #212125;
+  border: none;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 11px 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+}

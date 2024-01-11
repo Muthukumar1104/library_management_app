@@ -1,0 +1,59 @@
+.Login_panel {
+  overflow: hidden;
+}
+
+.Login_panel .login,
+.Login_panel .image {
+  height: 100vh;
+}
+
+.Login_panel .row {
+  /* flex-direction: row-reverse; */
+}
+
+.Login_panel .login .container {
+  background: #f5f3f3;
+  padding: 10% 0% 10% 0%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.Login_panel .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Login_panel .bg-light {
+  background-image: url("../../../assets/Images/login_image.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.Login_panel .signup {
+  cursor: pointer;
+}
+
+.Login_panel .signup:hover {
+  text-decoration: underline;
+}
+
+.Login_panel .forgot_pass {
+  cursor: pointer;
+}
+
+.Login_panel .forgot_pass:hover {
+  text-decoration: underline;
+}
+
+.Login_panel button {
+  font-size: 16.5px;
+  border-radius: 13px;
+  background: #059862;
+  border: none;
+  padding: 2% 12%;
+}
+
+.Login_panel button:hover {
+  background: #059862;
+}

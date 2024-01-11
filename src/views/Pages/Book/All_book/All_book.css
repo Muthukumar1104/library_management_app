@@ -1,0 +1,45 @@
+.All_contacts .card {
+  width: 100%;
+  height: auto;
+}
+
+.All_contacts .card .card-body .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.All_contacts .card .card-title .actions .search {
+  width: 50%;
+  height: 37px;
+  vertical-align: middle;
+  border-radius: 15px;
+  border: 1px solid grey;
+  text-indent: 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+.All_contacts .card .card-title .actions .search::placeholder {
+  font-size: 15px;
+  text-indent: 12px;
+}
+
+.All_contacts .card .card-title .actions .btn-danger {
+  background-color: #ff7a53;
+  border: none;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 11px 24px;
+  font-weight: 550;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.All_contacts .card i {
+  cursor: pointer;
+}
+
+.All_contacts .card .bi-trash3 {
+  color: #ff7a53;
+}

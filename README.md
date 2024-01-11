@@ -1,1 +1,2 @@
-# library_management_app
+# crm_app
+CRM application repository

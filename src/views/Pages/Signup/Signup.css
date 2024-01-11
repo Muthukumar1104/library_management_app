@@ -1,0 +1,59 @@
+.signup_panel {
+  overflow: hidden;
+}
+
+.signup_panel .login,
+.signup_panel .image {
+  height: 100vh;
+}
+
+.signup_panel .row {
+  /* flex-direction: row-reverse; */
+}
+
+.signup_panel .login .container {
+  background: #f5f3f3;
+  padding: 3% 0 3% 0%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.signup_panel .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup_panel .bg-light {
+  background-image: url("../../../assets/Images/signup_image.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.signup_panel .signup {
+  cursor: pointer;
+}
+
+.signup_panel .signup:hover {
+  text-decoration: underline;
+}
+
+.signup_panel .forgot_pass {
+  cursor: pointer;
+}
+
+.signup_panel .forgot_pass:hover {
+  text-decoration: underline;
+}
+
+.signup_panel button {
+  font-size: 16.5px;
+  border-radius: 13px;
+  background: #059862;
+  border: none;
+  padding: 2% 12%;
+}
+
+.signup_panel button:hover {
+  background: #059862;
+}
